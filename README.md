@@ -21,3 +21,6 @@ Plugin
 * http://idangero.us/swiper/api/
 * http://momentjs.com/
 
+Mobile
+---------------
+* web devices capabilities : http://mydevice.io/
