@@ -24,3 +24,7 @@ Plugin
 Mobile
 ---------------
 * web devices capabilities : http://mydevice.io/
+
+HTML5 LocalStorage
+---------------
+* http://ohgyun.com/417
