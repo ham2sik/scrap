@@ -28,3 +28,8 @@ Mobile
 HTML5 LocalStorage
 ---------------
 * http://ohgyun.com/417
+
+코드압축
+---------------
+* https://perfectacle.github.io/2017/04/18/webpack2-optimize/
+* https://vnthf.github.io/blog/Front-Gzip%EC%97%90-%EA%B4%80%ED%95%98%EC%97%AC/
