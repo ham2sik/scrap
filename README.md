@@ -1,6 +1,28 @@
 scrap
 ========================
 
+```html
+<body>
+
+<script type="text/javascript" src="http://its.jobkorea.kr/content/js/lazyUIT.min.js"></script>
+<script>
+	$(window).load(function() {
+		// case 1
+		lazyUIT.image({
+			offset: 1500,
+			errorSrc: 'http://i.jobkorea.kr/content/images/m/....../error_image.png',
+			callback: function (element, op) {
+				console.log(element, 'has been loaded')
+			}
+		});
+
+		// case 2
+		// lazyUIT.renderAll();
+	});
+</script>
+</body>
+```
+
 window.history
 ---------------
 * https://developer.mozilla.org/ko/docs/Web/API/History_API
