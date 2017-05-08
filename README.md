@@ -2,25 +2,7 @@ scrap
 ========================
 
 ```html
-<body>
-
-<script type="text/javascript" src="http://its.jobkorea.kr/content/js/lazyUIT.min.js"></script>
-<script>
-	$(window).load(function() {
-		// case 1
-		lazyUIT.image({
-			offset: 1500,
-			errorSrc: 'http://i.jobkorea.kr/content/images/m/....../error_image.png',
-			callback: function (element, op) {
-				console.log(element, 'has been loaded')
-			}
-		});
-
-		// case 2
-		// lazyUIT.renderAll();
-	});
-</script>
-</body>
+<img data-original="http://file1.jobkorea.co.kr/Super/33/610/m.emforce_info01.gif" src="http://i.jobkorea.kr/content/images/m/noneimg/blank.png" alt="취급고" />
 ```
 
 window.history
