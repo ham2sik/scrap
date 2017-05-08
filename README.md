@@ -2,7 +2,10 @@ scrap
 ========================
 
 ```html
-<img data-original="http://file1.jobkorea.co.kr/Super/33/610/m.emforce_info01.gif" src="http://i.jobkorea.kr/content/images/m/noneimg/blank.png" alt="취급고" />
+<style>
+	.case2 {width: 60px;height: 58px;background-size: 60px 58px;font-size: 0;}
+</style>
+<div class="case2" data-bg-original="http://file1.jobkorea.co.kr/Super/33/610/m.emforce_info02.gif">기업형태</div>
 ```
 
 window.history
