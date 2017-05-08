@@ -2,19 +2,13 @@ scrap
 ========================
 
 ```html
+<div class="lazyYoutube" data-src="https://www.youtube.com/embed/3W5ACF-guFc" data-options='{"title":"잡코리아 2017년 신입공채", "width":"560", "height":"315"}'></div>
+
 <script type="text/javascript" src="http://its.jobkorea.kr/content/js/lazyUIT.min.js"></script>
 <script>
 	$(window).load(function() {
-		// lazyUIT.js(url, callback function);
-		lazyUIT.js("http://m.jobkorea.co.kr/include/js/swiper.min_3.3.1.js", function() {
-			var swiperEvent = new Swiper('#event .swiper-container', {
-				slidesPerView: 'auto',
-				freeMode: true,
-				onTouchMove : function(swiper) {
-					lazyUIT.render();
-				}
-			});
-		});
+		// lazyUIT.youTube(element);
+		lazyUIT.youTube();
 	});
 </script>
 ```
