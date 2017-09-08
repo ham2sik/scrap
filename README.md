@@ -6,7 +6,7 @@ scrap
 	<script src="moni.pc.min.js"></script>
 	<script>
 		$(window).load(function() {
-			lazyUIT.image({
+			moni.lazy.image({
 				offset: 100,
 				callback: function (element, op) {
 					console.log(element, 'has been loaded')
